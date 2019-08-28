@@ -1,0 +1,19 @@
+Package: PublicTrans
+Type: Package
+Title: Common Tools for WSDOT Public Tranportation Data
+Version: 0.1.0
+Authors@R: person("Ian", "Wesley", email = "WesleyI@wsdot.wa.gov",
+                  role = c("aut", "cre"))
+Description: Common tools for working with WSDOT Public Transportation Data.  This package
+  contains tools for working with the following data: .dat files from CTR surveys.
+Depends: R (>= 3.1.0)
+Imports: 
+  tools,
+  methods,
+  utils,
+  magrittr, 
+  dplyr
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
